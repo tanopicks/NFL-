@@ -1,0 +1,4413 @@
+﻿window.WEEKLY_REPORT = {
+  "title": "NFL Predictive & Conservative +EV Value System - Weekly Intelligence Report",
+  "generated_at": "2026-10-11T16:11:38.453953+00:00",
+  "summary": {
+    "CANDIDATA": 9,
+    "ESPERAR": 0,
+    "DEJAR_PASAR": 2,
+    "PENDIENTE": 1
+  },
+  "games": [
+    {
+      "game_id": "GAME_CIN_MIA",
+      "home_team": "MIA",
+      "away_team": "CIN",
+      "global_decision": "PENDIENTE",
+      "decision_badge": "PENDIENTE_DATOS_INCOMPLETOS",
+      "reason": "Bloques obligatorios incompletos o estatus de QB/lesiones sin confirmar oficialmente.",
+      "pending_issues": [
+        "QB home_qb no estÃ¡ confirmado formalmente (QUESTIONABLE_TBD)"
+      ],
+      "updated_at": "2026-10-11T16:11:37.818230+00:00",
+      "raw_game": {
+        "game_id": "GAME_CIN_MIA",
+        "kickoff_utc": "2026-10-11T17:00:00Z",
+        "home_team": "MIA",
+        "away_team": "CIN",
+        "is_divisional": false,
+        "home_team_stats": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "MIA",
+          "off_epa_play": -0.05,
+          "def_epa_play_allowed": 0.03,
+          "off_success_rate": 39.0,
+          "def_success_rate_allowed": 44.0,
+          "off_pass_epa": -0.07,
+          "def_pass_epa_allowed": 0.08,
+          "off_rush_epa": -0.03,
+          "def_rush_epa_allowed": -0.02,
+          "points_scored_pg": 17.0,
+          "points_allowed_pg": 24.5,
+          "yards_per_play": 4.9,
+          "yards_per_play_allowed": 5.5,
+          "turnover_diff": -4,
+          "red_zone_pct": 46.0,
+          "def_red_zone_pct_allowed": 60.0,
+          "sacks_allowed_pg": 3.2,
+          "def_pressure_rate": 29.0,
+          "explosive_plays_for_pg": 3.8,
+          "explosive_plays_allowed_pg": 4.7
+        },
+        "away_team_stats": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "CIN",
+          "off_epa_play": 0.16,
+          "def_epa_play_allowed": 0.05,
+          "off_success_rate": 48.0,
+          "def_success_rate_allowed": 45.0,
+          "off_pass_epa": 0.24,
+          "def_pass_epa_allowed": 0.09,
+          "off_rush_epa": 0.05,
+          "def_rush_epa_allowed": 0.01,
+          "points_scored_pg": 28.5,
+          "points_allowed_pg": 25.5,
+          "yards_per_play": 6.1,
+          "yards_per_play_allowed": 5.6,
+          "turnover_diff": 1,
+          "red_zone_pct": 70.0,
+          "def_red_zone_pct_allowed": 62.0,
+          "sacks_allowed_pg": 1.9,
+          "def_pressure_rate": 32.0,
+          "explosive_plays_for_pg": 6.0,
+          "explosive_plays_allowed_pg": 4.8
+        },
+        "home_qb": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "starter_name": "Tua Tagovailoa",
+          "starter_status": "QUESTIONABLE_TBD",
+          "epa_dropback": -0.02,
+          "cpoe": 1.0,
+          "passer_rating": 82.0,
+          "yards_pg": 210.0,
+          "touchdowns": 6,
+          "interceptions": 5,
+          "attempts_pg": 30.0,
+          "sack_pct": 6.8,
+          "pass_rating_under_pressure": 62.0,
+          "fumbles_lost": 2,
+          "backup_name": "Tyler Huntley",
+          "backup_status": "HEALTHY",
+          "backup_downgrade_epa": -0.15
+        },
+        "away_qb": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "starter_name": "Joe Burrow",
+          "starter_status": "CONFIRMED",
+          "epa_dropback": 0.26,
+          "cpoe": 6.0,
+          "passer_rating": 109.0,
+          "yards_pg": 290.0,
+          "touchdowns": 20,
+          "interceptions": 4,
+          "attempts_pg": 36.0,
+          "sack_pct": 4.5,
+          "pass_rating_under_pressure": 90.0,
+          "fumbles_lost": 1,
+          "backup_name": "Jake Browning",
+          "backup_status": "HEALTHY",
+          "backup_downgrade_epa": -0.19
+        },
+        "home_pfr": {
+          "source": "Pro Football Reference",
+          "source_url": "https://www.pro-football-reference.com/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "MIA",
+          "pass_block_win_rate": 56.0,
+          "run_block_win_rate": 62.0,
+          "pass_rush_win_rate": 37.0,
+          "run_stop_rate": 30.0,
+          "blitz_rate_def": 22.0,
+          "points_per_drive": 1.65,
+          "third_down_conv_pct": 35.0,
+          "third_down_def_pct_allowed": 43.0,
+          "fourth_down_conv_pct": 60.0
+        },
+        "away_pfr": {
+          "source": "Pro Football Reference",
+          "source_url": "https://www.pro-football-reference.com/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "CIN",
+          "pass_block_win_rate": 63.0,
+          "run_block_win_rate": 69.0,
+          "pass_rush_win_rate": 40.0,
+          "run_stop_rate": 33.0,
+          "blitz_rate_def": 26.0,
+          "points_per_drive": 2.65,
+          "third_down_conv_pct": 46.0,
+          "third_down_def_pct_allowed": 42.0,
+          "fourth_down_conv_pct": 58.0
+        },
+        "home_injuries": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "MIA",
+          "players": [
+            {
+              "name": "Tua Tagovailoa",
+              "position": "QB",
+              "game_status": "QUESTIONABLE",
+              "practice_status": "DNP",
+              "injury_type": "Concussion Protocol",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "QUESTIONABLE",
+            "name": "Tua Tagovailoa",
+            "penalty": 1.8,
+            "details": {
+              "name": "Tua Tagovailoa",
+              "position": "QB",
+              "game_status": "QUESTIONABLE",
+              "practice_status": "DNP",
+              "injury_type": "Concussion Protocol",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          }
+        },
+        "away_injuries": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:29.646955+00:00",
+          "team": "CIN",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "context": {
+          "stadium": {
+            "name": "Hard Rock Stadium",
+            "dome": false,
+            "surface": "Grass",
+            "altitude_ft": 10,
+            "tz": "America/New_York",
+            "lat": 25.958,
+            "lon": -80.2389
+          },
+          "rest_days_home": 7,
+          "rest_days_away": 7,
+          "travel_miles_away": 950,
+          "tz_crossed_away": 0,
+          "weather": {
+            "source": "National Weather Service / Open-Meteo Hi-Res",
+            "source_url": "https://www.weather.gov/",
+            "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+            "stadium": "Hard Rock Stadium",
+            "is_dome": false,
+            "surface": "Grass",
+            "altitude_ft": 10,
+            "temp_f": 88.9,
+            "wind_mph": 8.8,
+            "wind_gust_mph": 11.4,
+            "precip_pct": 10,
+            "condition": "Despejado / Parcialmente Nublado",
+            "impact_on_passing": 1.0,
+            "impact_on_scoring": 1.0
+          }
+        },
+        "market_odds": {
+          "source": "The Odds API & Sportsbook Aggregator",
+          "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+          "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+          "best_odds": {
+            "home": {
+              "odds_decimal": 3.5,
+              "odds_american": 250,
+              "sportsbook": "Pinnacle"
+            },
+            "away": {
+              "odds_decimal": 1.33,
+              "odds_american": -303,
+              "sportsbook": "Pinnacle"
+            }
+          },
+          "consensus_no_vig_prob": {
+            "home": 27.54,
+            "away": 72.46
+          },
+          "books_detail": {
+            "Pinnacle": {
+              "open_odds": {
+                "home": 3.5,
+                "away": 1.33,
+                "home_american": 250,
+                "away_american": -303
+              },
+              "current_odds": {
+                "home": 3.5,
+                "away": 1.33,
+                "home_american": 250,
+                "away_american": -303
+              },
+              "closing_odds": null,
+              "raw_implied_prob": {
+                "home": 28.57,
+                "away": 75.19
+              },
+              "no_vig_prob": {
+                "home": 27.54,
+                "away": 72.46
+              },
+              "vig_pct": 3.76,
+              "line_movement": {
+                "home_delta": 0.0,
+                "away_delta": 0.0,
+                "steam_trend": "STABLE"
+              }
+            },
+            "DraftKings": {
+              "open_odds": {
+                "home": 3.55,
+                "away": 1.32,
+                "home_american": 255,
+                "away_american": -312
+              },
+              "current_odds": {
+                "home": 3.5,
+                "away": 1.33,
+                "home_american": 250,
+                "away_american": -303
+              },
+              "closing_odds": null,
+              "raw_implied_prob": {
+                "home": 28.57,
+                "away": 75.19
+              },
+              "no_vig_prob": {
+                "home": 27.54,
+                "away": 72.46
+              },
+              "vig_pct": 3.76,
+              "line_movement": {
+                "home_delta": -0.05,
+                "away_delta": 0.01,
+                "steam_trend": "STABLE"
+              }
+            }
+          }
+        },
+        "rolling_windows": {
+          "home": {
+            "season": {
+              "epa_off": -0.05,
+              "epa_def": 0.03,
+              "win_pct": 65.0
+            },
+            "l8": {
+              "epa_off": -0.05,
+              "epa_def": 0.03,
+              "win_pct": 62.5
+            },
+            "l5": {
+              "epa_off": -0.030000000000000002,
+              "epa_def": 0.019999999999999997,
+              "win_pct": 60.0
+            },
+            "l3": {
+              "epa_off": -0.020000000000000004,
+              "epa_def": 0.009999999999999998,
+              "win_pct": 66.7
+            }
+          },
+          "away": {
+            "season": {
+              "epa_off": 0.16,
+              "epa_def": 0.05,
+              "win_pct": 60.0
+            },
+            "l8": {
+              "epa_off": 0.16,
+              "epa_def": 0.05,
+              "win_pct": 62.5
+            },
+            "l5": {
+              "epa_off": 0.17,
+              "epa_def": 0.05,
+              "win_pct": 60.0
+            },
+            "l3": {
+              "epa_off": 0.18,
+              "epa_def": 0.05,
+              "win_pct": 66.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_id": "LV@NE",
+      "home_team": "NE",
+      "away_team": "LV",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "LV 20.5 @ NE 24.1",
+      "fair_spread": -3.6,
+      "fair_total": 44.6,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "NE",
+          "estimated_prob_pct": 60.11,
+          "fair_odds": 1.664,
+          "market_odds": 1.51,
+          "no_vig_market_prob_pct": 63.53,
+          "expected_value_ev_pct": -9.23,
+          "market_edge_pct": -3.42,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -9.23%). Cuota ofrecida 1.51 por debajo de la cuota justa requerida 1.664.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "LV",
+          "estimated_prob_pct": 39.89,
+          "fair_odds": 2.507,
+          "market_odds": 2.63,
+          "no_vig_market_prob_pct": 36.47,
+          "expected_value_ev_pct": 4.91,
+          "market_edge_pct": 3.42,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +4.91%, cuota 2.63 superior a cuota justa 2.507 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 52.95 pts",
+          "Diferencial EPA pase: -0.070",
+          "Diferencial Success Rate: -2.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 50.23 pts",
+          "Diferencial EPA pase: +0.010",
+          "Diferencial Success Rate: -1.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:37.867541+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_LV_NE_20261011_161137.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+          "team": "NE",
+          "off_epa_play": -0.02,
+          "def_epa_play_allowed": -0.05,
+          "off_success_rate": 43.0,
+          "def_success_rate_allowed": 40.0,
+          "off_pass_epa": -0.01,
+          "def_pass_epa_allowed": -0.06,
+          "off_rush_epa": -0.03,
+          "def_rush_epa_allowed": -0.04,
+          "points_scored_pg": 22.0,
+          "points_allowed_pg": 18.0,
+          "yards_per_play": 5.3,
+          "yards_per_play_allowed": 4.9,
+          "turnover_diff": 1,
+          "red_zone_pct": 55.0,
+          "def_red_zone_pct_allowed": 48.0,
+          "sacks_allowed_pg": 2.2,
+          "def_pressure_rate": 36.0,
+          "explosive_plays_for_pg": 4.4,
+          "explosive_plays_allowed_pg": 3.6
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+          "team": "LV",
+          "off_epa_play": -0.07,
+          "def_epa_play_allowed": 0.03,
+          "off_success_rate": 39.0,
+          "def_success_rate_allowed": 45.0,
+          "off_pass_epa": -0.05,
+          "def_pass_epa_allowed": 0.06,
+          "off_rush_epa": -0.09,
+          "def_rush_epa_allowed": 0.01,
+          "points_scored_pg": 18.0,
+          "points_allowed_pg": 23.0,
+          "yards_per_play": 4.9,
+          "yards_per_play_allowed": 5.5,
+          "turnover_diff": -3,
+          "red_zone_pct": 48.0,
+          "def_red_zone_pct_allowed": 57.0,
+          "sacks_allowed_pg": 3.2,
+          "def_pressure_rate": 31.0,
+          "explosive_plays_for_pg": 3.8,
+          "explosive_plays_allowed_pg": 4.8
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Drake Maye",
+          "base_rating": 52.91,
+          "effective_rating": 52.91,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.06,
+            "cpoe": 2.1,
+            "passer_rating": 89.0,
+            "under_pressure_rating": 75.0,
+            "sack_pct": 6.2,
+            "ball_security_penalties": 5
+          }
+        },
+        "away": {
+          "qb_name": "Aidan O'Connell",
+          "base_rating": 34.26,
+          "effective_rating": 34.26,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": -0.04,
+            "cpoe": -1.8,
+            "passer_rating": 77.0,
+            "under_pressure_rating": 60.0,
+            "sack_pct": 6.5,
+            "ball_security_penalties": 7
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 44.2,
+          "ground_matchup_score": 42.0,
+          "trench_protection_score": 92.0,
+          "success_rate_advantage": 43.3,
+          "situational_clutch_score": 48.0,
+          "explosive_advantage_score": 45.0,
+          "composite_offensive_strength": 52.95,
+          "key_factors": {
+            "air_epa_diff": -0.07,
+            "rush_epa_diff": -0.04,
+            "trench_diff_adj": 26.0,
+            "sr_diff": -2.0,
+            "red_zone_diff": -2.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 44.7,
+          "ground_matchup_score": 40.0,
+          "trench_protection_score": 70.0,
+          "success_rate_advantage": 46.7,
+          "situational_clutch_score": 49.0,
+          "explosive_advantage_score": 52.5,
+          "composite_offensive_strength": 50.23,
+          "key_factors": {
+            "air_epa_diff": 0.01,
+            "rush_epa_diff": -0.05,
+            "trench_diff_adj": 15.0,
+            "sr_diff": -1.0,
+            "red_zone_diff": 0.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+          "team": "NE",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:31.163155+00:00",
+          "team": "LV",
+          "players": [
+            {
+              "name": "Davante Adams",
+              "position": "WR",
+              "game_status": "OUT",
+              "practice_status": "DNP",
+              "injury_type": "Hamstring",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 2.75,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 1.25,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.0,
+        "is_divisional": false,
+        "details": {
+          "stadium": "Gillette Stadium",
+          "altitude_ft": 200,
+          "surface": "Turf",
+          "dome": false,
+          "temp_f": 58.3,
+          "wind_mph": 8.6,
+          "weather_condition": "Despejado / Parcialmente Nublado"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 1.51,
+            "odds_american": -196,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 2.63,
+            "odds_american": 163,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 63.53,
+          "away": 36.47
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 1.51,
+              "away": 2.63,
+              "home_american": -196,
+              "away_american": 163
+            },
+            "current_odds": {
+              "home": 1.51,
+              "away": 2.63,
+              "home_american": -196,
+              "away_american": 163
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 66.23,
+              "away": 38.02
+            },
+            "no_vig_prob": {
+              "home": 63.53,
+              "away": 36.47
+            },
+            "vig_pct": 4.25,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 1.5,
+              "away": 2.65,
+              "home_american": -200,
+              "away_american": 165
+            },
+            "current_odds": {
+              "home": 1.51,
+              "away": 2.63,
+              "home_american": -196,
+              "away_american": 163
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 66.23,
+              "away": 38.02
+            },
+            "no_vig_prob": {
+              "home": 63.53,
+              "away": 36.47
+            },
+            "vig_pct": 4.25,
+            "line_movement": {
+              "home_delta": 0.01,
+              "away_delta": -0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": -0.02,
+            "epa_def": -0.05,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": -0.02,
+            "epa_def": -0.05,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.0,
+            "epa_def": -0.060000000000000005,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.009999999999999998,
+            "epa_def": -0.07,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": -0.07,
+            "epa_def": 0.03,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": -0.07,
+            "epa_def": 0.03,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": -0.060000000000000005,
+            "epa_def": 0.03,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": -0.05,
+            "epa_def": 0.03,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "MIN@NO",
+      "home_team": "NO",
+      "away_team": "MIN",
+      "global_decision": "DEJAR PASAR",
+      "projected_score": "MIN 27.4 @ NO 25.0",
+      "fair_spread": 2.4,
+      "fair_total": 52.3,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "NO",
+          "estimated_prob_pct": 43.33,
+          "fair_odds": 2.308,
+          "market_odds": 2.19,
+          "no_vig_market_prob_pct": 43.99,
+          "expected_value_ev_pct": -5.11,
+          "market_edge_pct": -0.66,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -5.11%). Cuota ofrecida 2.19 por debajo de la cuota justa requerida 2.308.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "MIN",
+          "estimated_prob_pct": 56.67,
+          "fair_odds": 1.765,
+          "market_odds": 1.72,
+          "no_vig_market_prob_pct": 56.01,
+          "expected_value_ev_pct": -2.53,
+          "market_edge_pct": 0.66,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -2.53%). Cuota ofrecida 1.72 por debajo de la cuota justa requerida 1.765.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 56.44 pts",
+          "Diferencial EPA pase: +0.060",
+          "Diferencial Success Rate: +1.5%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 69.29 pts",
+          "Diferencial EPA pase: +0.130",
+          "Diferencial Success Rate: +3.5%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "OUT",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:37.916274+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_MIN_NO_20261011_161137.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "NO",
+          "off_epa_play": -0.03,
+          "def_epa_play_allowed": 0.03,
+          "off_success_rate": 41.5,
+          "def_success_rate_allowed": 44.0,
+          "off_pass_epa": -0.01,
+          "def_pass_epa_allowed": 0.08,
+          "off_rush_epa": -0.05,
+          "def_rush_epa_allowed": -0.02,
+          "points_scored_pg": 20.5,
+          "points_allowed_pg": 24.0,
+          "yards_per_play": 5.1,
+          "yards_per_play_allowed": 5.4,
+          "turnover_diff": -2,
+          "red_zone_pct": 51.0,
+          "def_red_zone_pct_allowed": 57.0,
+          "sacks_allowed_pg": 2.9,
+          "def_pressure_rate": 30.0,
+          "explosive_plays_for_pg": 4.2,
+          "explosive_plays_allowed_pg": 4.8
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "MIN",
+          "off_epa_play": 0.13,
+          "def_epa_play_allowed": -0.09,
+          "off_success_rate": 47.5,
+          "def_success_rate_allowed": 40.0,
+          "off_pass_epa": 0.21,
+          "def_pass_epa_allowed": -0.07,
+          "off_rush_epa": 0.02,
+          "def_rush_epa_allowed": -0.11,
+          "points_scored_pg": 27.5,
+          "points_allowed_pg": 15.5,
+          "yards_per_play": 5.9,
+          "yards_per_play_allowed": 4.7,
+          "turnover_diff": 5,
+          "red_zone_pct": 66.0,
+          "def_red_zone_pct_allowed": 45.0,
+          "sacks_allowed_pg": 1.9,
+          "def_pressure_rate": 39.0,
+          "explosive_plays_for_pg": 5.6,
+          "explosive_plays_allowed_pg": 3.2
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Spencer Rattler",
+          "base_rating": 31.29,
+          "effective_rating": 30.04,
+          "penalty_applied": 1.25,
+          "status_note": "QB titular no jugarÃ¡. Inicia Jake Haener. PenalizaciÃ³n estimada: -1.2 pts de rating.",
+          "metrics": {
+            "epa_dropback": -0.04,
+            "cpoe": -2.2,
+            "passer_rating": 75.0,
+            "under_pressure_rating": 57.0,
+            "sack_pct": 7.6,
+            "ball_security_penalties": 7
+          }
+        },
+        "away": {
+          "qb_name": "Sam Darnold",
+          "base_rating": 66.8,
+          "effective_rating": 66.8,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.22,
+            "cpoe": 4.2,
+            "passer_rating": 105.0,
+            "under_pressure_rating": 83.0,
+            "sack_pct": 6.2,
+            "ball_security_penalties": 7
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 48.0,
+          "ground_matchup_score": 62.0,
+          "trench_protection_score": 60.0,
+          "success_rate_advantage": 55.0,
+          "situational_clutch_score": 60.0,
+          "explosive_advantage_score": 62.5,
+          "composite_offensive_strength": 56.44,
+          "key_factors": {
+            "air_epa_diff": 0.06,
+            "rush_epa_diff": 0.06,
+            "trench_diff_adj": 10.0,
+            "sr_diff": 1.5,
+            "red_zone_diff": 6.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 69.7,
+          "ground_matchup_score": 58.0,
+          "trench_protection_score": 96.0,
+          "success_rate_advantage": 61.7,
+          "situational_clutch_score": 61.0,
+          "explosive_advantage_score": 60.0,
+          "composite_offensive_strength": 69.29,
+          "key_factors": {
+            "air_epa_diff": 0.13,
+            "rush_epa_diff": 0.04,
+            "trench_diff_adj": 28.0,
+            "sr_diff": 3.5,
+            "red_zone_diff": 9.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "NO",
+          "players": [
+            {
+              "name": "Derek Carr",
+              "position": "QB",
+              "game_status": "OUT",
+              "practice_status": "DNP",
+              "injury_type": "Oblique",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "OUT",
+            "name": "Derek Carr",
+            "penalty": 4.5,
+            "details": {
+              "name": "Derek Carr",
+              "position": "QB",
+              "game_status": "OUT",
+              "practice_status": "DNP",
+              "injury_type": "Oblique",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "MIN",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.5,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.02,
+        "is_divisional": false,
+        "details": {
+          "stadium": "Caesars Superdome",
+          "altitude_ft": 3,
+          "surface": "Turf",
+          "dome": true,
+          "temp_f": 72.0,
+          "wind_mph": 0.0,
+          "weather_condition": "Dome (Controlled Indoor Environment)"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 2.19,
+            "odds_american": 119,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.72,
+            "odds_american": -139,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 43.99,
+          "away": 56.01
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 2.19,
+              "away": 1.72,
+              "home_american": 119,
+              "away_american": -139
+            },
+            "current_odds": {
+              "home": 2.19,
+              "away": 1.72,
+              "home_american": 119,
+              "away_american": -139
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 45.66,
+              "away": 58.14
+            },
+            "no_vig_prob": {
+              "home": 43.99,
+              "away": 56.01
+            },
+            "vig_pct": 3.8,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 2.2,
+              "away": 1.7,
+              "home_american": 120,
+              "away_american": -143
+            },
+            "current_odds": {
+              "home": 2.19,
+              "away": 1.72,
+              "home_american": 119,
+              "away_american": -139
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 45.66,
+              "away": 58.14
+            },
+            "no_vig_prob": {
+              "home": 43.99,
+              "away": 56.01
+            },
+            "vig_pct": 3.8,
+            "line_movement": {
+              "home_delta": -0.01,
+              "away_delta": 0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": -0.03,
+            "epa_def": 0.03,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": -0.03,
+            "epa_def": 0.03,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": -0.009999999999999998,
+            "epa_def": 0.019999999999999997,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.0,
+            "epa_def": 0.009999999999999998,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.13,
+            "epa_def": -0.09,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.13,
+            "epa_def": -0.09,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.14,
+            "epa_def": -0.09,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.15,
+            "epa_def": -0.09,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "CLE@NYJ",
+      "home_team": "NYJ",
+      "away_team": "CLE",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "CLE 18.4 @ NYJ 24.3",
+      "fair_spread": -5.9,
+      "fair_total": 42.7,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "NYJ",
+          "estimated_prob_pct": 66.66,
+          "fair_odds": 1.5,
+          "market_odds": 1.71,
+          "no_vig_market_prob_pct": 55.81,
+          "expected_value_ev_pct": 13.99,
+          "market_edge_pct": 10.85,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +13.99%, cuota 1.71 superior a cuota justa 1.5 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "CLE",
+          "estimated_prob_pct": 33.33,
+          "fair_odds": 3.0,
+          "market_odds": 2.16,
+          "no_vig_market_prob_pct": 44.19,
+          "expected_value_ev_pct": -28.01,
+          "market_edge_pct": -10.86,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -28.01%). Cuota ofrecida 2.16 por debajo de la cuota justa requerida 3.0.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 59.21 pts",
+          "Diferencial EPA pase: +0.040",
+          "Diferencial Success Rate: +1.5%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 43.69 pts",
+          "Diferencial EPA pase: -0.060",
+          "Diferencial Success Rate: -3.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:37.973506+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_CLE_NYJ_20261011_161137.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "NYJ",
+          "off_epa_play": 0.02,
+          "def_epa_play_allowed": -0.09,
+          "off_success_rate": 43.5,
+          "def_success_rate_allowed": 39.0,
+          "off_pass_epa": 0.06,
+          "def_pass_epa_allowed": -0.1,
+          "off_rush_epa": -0.03,
+          "def_rush_epa_allowed": -0.08,
+          "points_scored_pg": 21.5,
+          "points_allowed_pg": 17.0,
+          "yards_per_play": 5.2,
+          "yards_per_play_allowed": 4.7,
+          "turnover_diff": 1,
+          "red_zone_pct": 55.0,
+          "def_red_zone_pct_allowed": 43.0,
+          "sacks_allowed_pg": 2.3,
+          "def_pressure_rate": 41.0,
+          "explosive_plays_for_pg": 4.4,
+          "explosive_plays_allowed_pg": 3.3
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "CLE",
+          "off_epa_play": -0.12,
+          "def_epa_play_allowed": -0.02,
+          "off_success_rate": 36.0,
+          "def_success_rate_allowed": 42.0,
+          "off_pass_epa": -0.16,
+          "def_pass_epa_allowed": 0.02,
+          "off_rush_epa": -0.08,
+          "def_rush_epa_allowed": -0.06,
+          "points_scored_pg": 15.0,
+          "points_allowed_pg": 23.5,
+          "yards_per_play": 4.6,
+          "yards_per_play_allowed": 5.2,
+          "turnover_diff": -4,
+          "red_zone_pct": 42.0,
+          "def_red_zone_pct_allowed": 58.0,
+          "sacks_allowed_pg": 4.5,
+          "def_pressure_rate": 37.0,
+          "explosive_plays_for_pg": 3.2,
+          "explosive_plays_allowed_pg": 4.1
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Aaron Rodgers",
+          "base_rating": 52.75,
+          "effective_rating": 52.75,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.09,
+            "cpoe": 1.9,
+            "passer_rating": 91.0,
+            "under_pressure_rating": 77.0,
+            "sack_pct": 5.3,
+            "ball_security_penalties": 8
+          }
+        },
+        "away": {
+          "qb_name": "Deshaun Watson",
+          "base_rating": 14.03,
+          "effective_rating": 14.03,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": -0.18,
+            "cpoe": -4.5,
+            "passer_rating": 71.0,
+            "under_pressure_rating": 52.0,
+            "sack_pct": 9.8,
+            "ball_security_penalties": 11
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 55.1,
+          "ground_matchup_score": 56.0,
+          "trench_protection_score": 82.0,
+          "success_rate_advantage": 55.0,
+          "situational_clutch_score": 50.0,
+          "explosive_advantage_score": 53.8,
+          "composite_offensive_strength": 59.21,
+          "key_factors": {
+            "air_epa_diff": 0.04,
+            "rush_epa_diff": 0.03,
+            "trench_diff_adj": 21.0,
+            "sr_diff": 1.5,
+            "red_zone_diff": -3.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 29.6,
+          "ground_matchup_score": 50.0,
+          "trench_protection_score": 58.0,
+          "success_rate_advantage": 40.0,
+          "situational_clutch_score": 47.0,
+          "explosive_advantage_score": 48.8,
+          "composite_offensive_strength": 43.69,
+          "key_factors": {
+            "air_epa_diff": -0.06,
+            "rush_epa_diff": 0.0,
+            "trench_diff_adj": 9.0,
+            "sr_diff": -3.0,
+            "red_zone_diff": -1.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "NYJ",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:32.462571+00:00",
+          "team": "CLE",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.5,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 0.96,
+        "is_divisional": false,
+        "details": {
+          "stadium": "MetLife Stadium",
+          "altitude_ft": 10,
+          "surface": "Turf",
+          "dome": false,
+          "temp_f": 61.2,
+          "wind_mph": 5.6,
+          "weather_condition": "Lluvia Activa"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:33.520863+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 1.71,
+            "odds_american": -141,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 2.16,
+            "odds_american": 116,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 55.81,
+          "away": 44.19
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 1.71,
+              "away": 2.16,
+              "home_american": -141,
+              "away_american": 116
+            },
+            "current_odds": {
+              "home": 1.71,
+              "away": 2.16,
+              "home_american": -141,
+              "away_american": 116
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 58.48,
+              "away": 46.3
+            },
+            "no_vig_prob": {
+              "home": 55.81,
+              "away": 44.19
+            },
+            "vig_pct": 4.78,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 1.7,
+              "away": 2.2,
+              "home_american": -143,
+              "away_american": 120
+            },
+            "current_odds": {
+              "home": 1.71,
+              "away": 2.16,
+              "home_american": -141,
+              "away_american": 116
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 58.48,
+              "away": 46.3
+            },
+            "no_vig_prob": {
+              "home": 55.81,
+              "away": 44.19
+            },
+            "vig_pct": 4.78,
+            "line_movement": {
+              "home_delta": 0.01,
+              "away_delta": -0.04,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.02,
+            "epa_def": -0.09,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.02,
+            "epa_def": -0.09,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.04,
+            "epa_def": -0.09999999999999999,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.05,
+            "epa_def": -0.11,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": -0.12,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": -0.12,
+            "epa_def": -0.02,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": -0.11,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": -0.09999999999999999,
+            "epa_def": -0.02,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "IND@PIT",
+      "home_team": "PIT",
+      "away_team": "IND",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "IND 25.5 @ PIT 23.4",
+      "fair_spread": 2.1,
+      "fair_total": 48.8,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "PIT",
+          "estimated_prob_pct": 44.29,
+          "fair_odds": 2.258,
+          "market_odds": 1.7,
+          "no_vig_market_prob_pct": 56.63,
+          "expected_value_ev_pct": -24.71,
+          "market_edge_pct": -12.34,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -24.71%). Cuota ofrecida 1.7 por debajo de la cuota justa requerida 2.258.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "IND",
+          "estimated_prob_pct": 55.71,
+          "fair_odds": 1.795,
+          "market_odds": 2.22,
+          "no_vig_market_prob_pct": 43.37,
+          "expected_value_ev_pct": 23.68,
+          "market_edge_pct": 12.34,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +23.68%, cuota 2.22 superior a cuota justa 1.795 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 55.98 pts",
+          "Diferencial EPA pase: -0.020",
+          "Diferencial Success Rate: -1.5%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 68.21 pts",
+          "Diferencial EPA pase: +0.130",
+          "Diferencial Success Rate: +5.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.023250+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_IND_PIT_20261011_161137.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:33.520863+00:00",
+          "team": "PIT",
+          "off_epa_play": 0.03,
+          "def_epa_play_allowed": -0.09,
+          "off_success_rate": 43.5,
+          "def_success_rate_allowed": 38.5,
+          "off_pass_epa": 0.05,
+          "def_pass_epa_allowed": -0.07,
+          "off_rush_epa": 0.01,
+          "def_rush_epa_allowed": -0.11,
+          "points_scored_pg": 21.0,
+          "points_allowed_pg": 15.0,
+          "yards_per_play": 5.2,
+          "yards_per_play_allowed": 4.6,
+          "turnover_diff": 4,
+          "red_zone_pct": 56.0,
+          "def_red_zone_pct_allowed": 43.0,
+          "sacks_allowed_pg": 2.0,
+          "def_pressure_rate": 39.0,
+          "explosive_plays_for_pg": 4.3,
+          "explosive_plays_allowed_pg": 3.2
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:33.520863+00:00",
+          "team": "IND",
+          "off_epa_play": 0.03,
+          "def_epa_play_allowed": 0.04,
+          "off_success_rate": 43.5,
+          "def_success_rate_allowed": 45.0,
+          "off_pass_epa": 0.06,
+          "def_pass_epa_allowed": 0.07,
+          "off_rush_epa": 0.0,
+          "def_rush_epa_allowed": 0.01,
+          "points_scored_pg": 22.5,
+          "points_allowed_pg": 23.5,
+          "yards_per_play": 5.4,
+          "yards_per_play_allowed": 5.5,
+          "turnover_diff": 0,
+          "red_zone_pct": 55.0,
+          "def_red_zone_pct_allowed": 57.0,
+          "sacks_allowed_pg": 2.1,
+          "def_pressure_rate": 30.0,
+          "explosive_plays_for_pg": 4.7,
+          "explosive_plays_allowed_pg": 4.6
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Justin Fields",
+          "base_rating": 57.34,
+          "effective_rating": 57.34,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.07,
+            "cpoe": 2.5,
+            "passer_rating": 92.0,
+            "under_pressure_rating": 79.0,
+            "sack_pct": 5.8,
+            "ball_security_penalties": 4
+          }
+        },
+        "away": {
+          "qb_name": "Joe Flacco",
+          "base_rating": 53.73,
+          "effective_rating": 53.73,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.09,
+            "cpoe": 1.8,
+            "passer_rating": 89.0,
+            "under_pressure_rating": 77.0,
+            "sack_pct": 4.4,
+            "ball_security_penalties": 7
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 50.9,
+          "ground_matchup_score": 50.0,
+          "trench_protection_score": 88.0,
+          "success_rate_advantage": 45.0,
+          "situational_clutch_score": 50.0,
+          "explosive_advantage_score": 46.2,
+          "composite_offensive_strength": 55.98,
+          "key_factors": {
+            "air_epa_diff": -0.02,
+            "rush_epa_diff": 0.0,
+            "trench_diff_adj": 24.0,
+            "sr_diff": -1.5,
+            "red_zone_diff": -1.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 64.5,
+          "ground_matchup_score": 72.0,
+          "trench_protection_score": 72.0,
+          "success_rate_advantage": 66.7,
+          "situational_clutch_score": 68.0,
+          "explosive_advantage_score": 68.8,
+          "composite_offensive_strength": 68.21,
+          "key_factors": {
+            "air_epa_diff": 0.13,
+            "rush_epa_diff": 0.11,
+            "trench_diff_adj": 16.0,
+            "sr_diff": 5.0,
+            "red_zone_diff": 12.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:33.520863+00:00",
+          "team": "PIT",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:33.520863+00:00",
+          "team": "IND",
+          "players": [
+            {
+              "name": "Jonathan Taylor",
+              "position": "RB",
+              "game_status": "OUT",
+              "practice_status": "DNP",
+              "injury_type": "Ankle",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.5,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 0.96,
+        "is_divisional": false,
+        "details": {
+          "stadium": "Acrisure Stadium",
+          "altitude_ft": 730,
+          "surface": "Grass",
+          "dome": false,
+          "temp_f": 60.1,
+          "wind_mph": 11.2,
+          "weather_condition": "Lluvia Activa"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:34.425808+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 1.7,
+            "odds_american": -143,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 2.22,
+            "odds_american": 122,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 56.63,
+          "away": 43.37
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 1.7,
+              "away": 2.22,
+              "home_american": -143,
+              "away_american": 122
+            },
+            "current_odds": {
+              "home": 1.7,
+              "away": 2.22,
+              "home_american": -143,
+              "away_american": 122
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 58.82,
+              "away": 45.05
+            },
+            "no_vig_prob": {
+              "home": 56.63,
+              "away": 43.37
+            },
+            "vig_pct": 3.87,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 1.68,
+              "away": 2.25,
+              "home_american": -147,
+              "away_american": 125
+            },
+            "current_odds": {
+              "home": 1.7,
+              "away": 2.22,
+              "home_american": -143,
+              "away_american": 122
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 58.82,
+              "away": 45.05
+            },
+            "no_vig_prob": {
+              "home": 56.63,
+              "away": 43.37
+            },
+            "vig_pct": 3.87,
+            "line_movement": {
+              "home_delta": 0.02,
+              "away_delta": -0.03,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.03,
+            "epa_def": -0.09,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.03,
+            "epa_def": -0.09,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.05,
+            "epa_def": -0.09999999999999999,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.06,
+            "epa_def": -0.11,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.03,
+            "epa_def": 0.04,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.03,
+            "epa_def": 0.04,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.04,
+            "epa_def": 0.04,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.05,
+            "epa_def": 0.04,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "HOU@TEN",
+      "home_team": "TEN",
+      "away_team": "HOU",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "HOU 29.2 @ TEN 22.0",
+      "fair_spread": 7.3,
+      "fair_total": 51.2,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "TEN",
+          "estimated_prob_pct": 29.28,
+          "fair_odds": 3.415,
+          "market_odds": 3.9,
+          "no_vig_market_prob_pct": 24.56,
+          "expected_value_ev_pct": 14.19,
+          "market_edge_pct": 4.72,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +14.19%, cuota 3.9 superior a cuota justa 3.415 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "HOU",
+          "estimated_prob_pct": 70.72,
+          "fair_odds": 1.414,
+          "market_odds": 1.27,
+          "no_vig_market_prob_pct": 75.44,
+          "expected_value_ev_pct": -10.19,
+          "market_edge_pct": -4.72,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -10.19%). Cuota ofrecida 1.27 por debajo de la cuota justa requerida 1.414.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 48.7 pts",
+          "Diferencial EPA pase: +0.000",
+          "Diferencial Success Rate: -2.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 76.65 pts",
+          "Diferencial EPA pase: +0.240",
+          "Diferencial Success Rate: +6.5%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.072467+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_HOU_TEN_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:34.425808+00:00",
+          "team": "TEN",
+          "off_epa_play": -0.05,
+          "def_epa_play_allowed": -0.05,
+          "off_success_rate": 39.0,
+          "def_success_rate_allowed": 40.5,
+          "off_pass_epa": -0.03,
+          "def_pass_epa_allowed": -0.06,
+          "off_rush_epa": -0.07,
+          "def_rush_epa_allowed": -0.04,
+          "points_scored_pg": 18.0,
+          "points_allowed_pg": 19.5,
+          "yards_per_play": 4.7,
+          "yards_per_play_allowed": 4.9,
+          "turnover_diff": -4,
+          "red_zone_pct": 48.0,
+          "def_red_zone_pct_allowed": 50.0,
+          "sacks_allowed_pg": 3.2,
+          "def_pressure_rate": 35.0,
+          "explosive_plays_for_pg": 3.8,
+          "explosive_plays_allowed_pg": 3.8
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:34.425808+00:00",
+          "team": "HOU",
+          "off_epa_play": 0.12,
+          "def_epa_play_allowed": -0.05,
+          "off_success_rate": 47.0,
+          "def_success_rate_allowed": 41.0,
+          "off_pass_epa": 0.18,
+          "def_pass_epa_allowed": -0.03,
+          "off_rush_epa": 0.05,
+          "def_rush_epa_allowed": -0.07,
+          "points_scored_pg": 27.0,
+          "points_allowed_pg": 18.5,
+          "yards_per_play": 5.9,
+          "yards_per_play_allowed": 4.9,
+          "turnover_diff": 2,
+          "red_zone_pct": 64.0,
+          "def_red_zone_pct_allowed": 48.0,
+          "sacks_allowed_pg": 1.9,
+          "def_pressure_rate": 39.0,
+          "explosive_plays_for_pg": 5.6,
+          "explosive_plays_allowed_pg": 3.5
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Will Levis",
+          "base_rating": 29.13,
+          "effective_rating": 29.13,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": -0.04,
+            "cpoe": -1.8,
+            "passer_rating": 77.0,
+            "under_pressure_rating": 59.0,
+            "sack_pct": 8.2,
+            "ball_security_penalties": 10
+          }
+        },
+        "away": {
+          "qb_name": "C.J. Stroud",
+          "base_rating": 68.63,
+          "effective_rating": 68.63,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.2,
+            "cpoe": 4.5,
+            "passer_rating": 102.5,
+            "under_pressure_rating": 86.0,
+            "sack_pct": 4.8,
+            "ball_security_penalties": 6
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 41.7,
+          "ground_matchup_score": 50.0,
+          "trench_protection_score": 60.0,
+          "success_rate_advantage": 43.3,
+          "situational_clutch_score": 49.0,
+          "explosive_advantage_score": 53.8,
+          "composite_offensive_strength": 48.7,
+          "key_factors": {
+            "air_epa_diff": 0.0,
+            "rush_epa_diff": 0.0,
+            "trench_diff_adj": 10.0,
+            "sr_diff": -2.0,
+            "red_zone_diff": 0.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 81.5,
+          "ground_matchup_score": 68.0,
+          "trench_protection_score": 88.0,
+          "success_rate_advantage": 71.7,
+          "situational_clutch_score": 70.0,
+          "explosive_advantage_score": 72.5,
+          "composite_offensive_strength": 76.65,
+          "key_factors": {
+            "air_epa_diff": 0.24,
+            "rush_epa_diff": 0.09,
+            "trench_diff_adj": 24.0,
+            "sr_diff": 6.5,
+            "red_zone_diff": 14.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:34.425808+00:00",
+          "team": "TEN",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:34.425808+00:00",
+          "team": "HOU",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.12,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.0,
+        "is_divisional": true,
+        "details": {
+          "stadium": "Nissan Stadium",
+          "altitude_ft": 400,
+          "surface": "Turf",
+          "dome": false,
+          "temp_f": 65.1,
+          "wind_mph": 9.6,
+          "weather_condition": "Despejado / Parcialmente Nublado"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:35.376367+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 3.9,
+            "odds_american": 290,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.27,
+            "odds_american": -370,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 24.56,
+          "away": 75.44
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 3.9,
+              "away": 1.27,
+              "home_american": 290,
+              "away_american": -370
+            },
+            "current_odds": {
+              "home": 3.9,
+              "away": 1.27,
+              "home_american": 290,
+              "away_american": -370
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 25.64,
+              "away": 78.74
+            },
+            "no_vig_prob": {
+              "home": 24.56,
+              "away": 75.44
+            },
+            "vig_pct": 4.38,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 3.95,
+              "away": 1.26,
+              "home_american": 295,
+              "away_american": -385
+            },
+            "current_odds": {
+              "home": 3.9,
+              "away": 1.27,
+              "home_american": 290,
+              "away_american": -370
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 25.64,
+              "away": 78.74
+            },
+            "no_vig_prob": {
+              "home": 24.56,
+              "away": 75.44
+            },
+            "vig_pct": 4.38,
+            "line_movement": {
+              "home_delta": -0.05,
+              "away_delta": 0.01,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": -0.05,
+            "epa_def": -0.05,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": -0.05,
+            "epa_def": -0.05,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": -0.030000000000000002,
+            "epa_def": -0.060000000000000005,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": -0.020000000000000004,
+            "epa_def": -0.07,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.12,
+            "epa_def": -0.05,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.12,
+            "epa_def": -0.05,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.13,
+            "epa_def": -0.05,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.13999999999999999,
+            "epa_def": -0.05,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "NYG@WAS",
+      "home_team": "WAS",
+      "away_team": "NYG",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "NYG 18.6 @ WAS 30.7",
+      "fair_spread": -12.1,
+      "fair_total": 49.3,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "WAS",
+          "estimated_prob_pct": 81.42,
+          "fair_odds": 1.228,
+          "market_odds": 1.55,
+          "no_vig_market_prob_pct": 62.01,
+          "expected_value_ev_pct": 26.2,
+          "market_edge_pct": 19.41,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +26.2%, cuota 1.55 superior a cuota justa 1.228 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "NYG",
+          "estimated_prob_pct": 18.58,
+          "fair_odds": 5.382,
+          "market_odds": 2.53,
+          "no_vig_market_prob_pct": 37.99,
+          "expected_value_ev_pct": -52.99,
+          "market_edge_pct": -19.41,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -52.99%). Cuota ofrecida 2.53 por debajo de la cuota justa requerida 5.382.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 81.99 pts",
+          "Diferencial EPA pase: +0.240",
+          "Diferencial Success Rate: +8.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 43.78 pts",
+          "Diferencial EPA pase: -0.150",
+          "Diferencial Success Rate: -3.5%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.121573+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_NYG_WAS_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:35.376367+00:00",
+          "team": "WAS",
+          "off_epa_play": 0.19,
+          "def_epa_play_allowed": 0.07,
+          "off_success_rate": 49.5,
+          "def_success_rate_allowed": 45.5,
+          "off_pass_epa": 0.23,
+          "def_pass_epa_allowed": 0.13,
+          "off_rush_epa": 0.14,
+          "def_rush_epa_allowed": 0.01,
+          "points_scored_pg": 31.5,
+          "points_allowed_pg": 22.5,
+          "yards_per_play": 6.3,
+          "yards_per_play_allowed": 5.7,
+          "turnover_diff": 4,
+          "red_zone_pct": 76.0,
+          "def_red_zone_pct_allowed": 64.0,
+          "sacks_allowed_pg": 2.0,
+          "def_pressure_rate": 29.0,
+          "explosive_plays_for_pg": 6.1,
+          "explosive_plays_allowed_pg": 5.0
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:35.376367+00:00",
+          "team": "NYG",
+          "off_epa_play": -0.03,
+          "def_epa_play_allowed": -0.02,
+          "off_success_rate": 42.0,
+          "def_success_rate_allowed": 41.5,
+          "off_pass_epa": -0.02,
+          "def_pass_epa_allowed": -0.01,
+          "off_rush_epa": -0.05,
+          "def_rush_epa_allowed": -0.03,
+          "points_scored_pg": 20.0,
+          "points_allowed_pg": 21.0,
+          "yards_per_play": 5.0,
+          "yards_per_play_allowed": 5.1,
+          "turnover_diff": -1,
+          "red_zone_pct": 52.0,
+          "def_red_zone_pct_allowed": 51.0,
+          "sacks_allowed_pg": 2.8,
+          "def_pressure_rate": 38.0,
+          "explosive_plays_for_pg": 4.2,
+          "explosive_plays_allowed_pg": 4.0
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Jayden Daniels",
+          "base_rating": 80.26,
+          "effective_rating": 80.26,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.25,
+            "cpoe": 8.0,
+            "passer_rating": 108.0,
+            "under_pressure_rating": 87.0,
+            "sack_pct": 5.0,
+            "ball_security_penalties": 3
+          }
+        },
+        "away": {
+          "qb_name": "Daniel Jones",
+          "base_rating": 44.39,
+          "effective_rating": 44.39,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.02,
+            "cpoe": 1.0,
+            "passer_rating": 84.0,
+            "under_pressure_rating": 70.0,
+            "sack_pct": 7.0,
+            "ball_security_penalties": 7
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 86.1,
+          "ground_matchup_score": 84.0,
+          "trench_protection_score": 80.0,
+          "success_rate_advantage": 76.7,
+          "situational_clutch_score": 84.0,
+          "explosive_advantage_score": 76.2,
+          "composite_offensive_strength": 81.99,
+          "key_factors": {
+            "air_epa_diff": 0.24,
+            "rush_epa_diff": 0.17,
+            "trench_diff_adj": 20.0,
+            "sr_diff": 8.0,
+            "red_zone_diff": 25.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 32.8,
+          "ground_matchup_score": 38.0,
+          "trench_protection_score": 80.0,
+          "success_rate_advantage": 38.3,
+          "situational_clutch_score": 34.0,
+          "explosive_advantage_score": 40.0,
+          "composite_offensive_strength": 43.78,
+          "key_factors": {
+            "air_epa_diff": -0.15,
+            "rush_epa_diff": -0.06,
+            "trench_diff_adj": 20.0,
+            "sr_diff": -3.5,
+            "red_zone_diff": -12.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:35.376367+00:00",
+          "team": "WAS",
+          "players": [
+            {
+              "name": "Brian Robinson Jr.",
+              "position": "RB",
+              "game_status": "QUESTIONABLE",
+              "practice_status": "LP",
+              "injury_type": "Knee",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:35.376367+00:00",
+          "team": "NYG",
+          "players": [
+            {
+              "name": "Malik Nabers",
+              "position": "WR",
+              "game_status": "OUT",
+              "practice_status": "DNP",
+              "injury_type": "Concussion",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.12,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 0.96,
+        "is_divisional": true,
+        "details": {
+          "stadium": "Northwest Stadium",
+          "altitude_ft": 150,
+          "surface": "Grass",
+          "dome": false,
+          "temp_f": 63.5,
+          "wind_mph": 12.3,
+          "weather_condition": "Lluvia Activa"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:36.177104+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 1.55,
+            "odds_american": -182,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 2.53,
+            "odds_american": 153,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 62.01,
+          "away": 37.99
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 1.55,
+              "away": 2.53,
+              "home_american": -182,
+              "away_american": 153
+            },
+            "current_odds": {
+              "home": 1.55,
+              "away": 2.53,
+              "home_american": -182,
+              "away_american": 153
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 64.52,
+              "away": 39.53
+            },
+            "no_vig_prob": {
+              "home": 62.01,
+              "away": 37.99
+            },
+            "vig_pct": 4.04,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 1.54,
+              "away": 2.55,
+              "home_american": -185,
+              "away_american": 155
+            },
+            "current_odds": {
+              "home": 1.55,
+              "away": 2.53,
+              "home_american": -182,
+              "away_american": 153
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 64.52,
+              "away": 39.53
+            },
+            "no_vig_prob": {
+              "home": 62.01,
+              "away": 37.99
+            },
+            "vig_pct": 4.04,
+            "line_movement": {
+              "home_delta": 0.01,
+              "away_delta": -0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.19,
+            "epa_def": 0.07,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.19,
+            "epa_def": 0.07,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.21,
+            "epa_def": 0.060000000000000005,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.22,
+            "epa_def": 0.05,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": -0.03,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": -0.03,
+            "epa_def": -0.02,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": -0.019999999999999997,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": -0.009999999999999998,
+            "epa_def": -0.02,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "CHI@GB",
+      "home_team": "GB",
+      "away_team": "CHI",
+      "global_decision": "DEJAR PASAR",
+      "projected_score": "CHI 25.3 @ GB 31.9",
+      "fair_spread": -6.6,
+      "fair_total": 57.1,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "GB",
+          "estimated_prob_pct": 68.8,
+          "fair_odds": 1.453,
+          "market_odds": 1.5,
+          "no_vig_market_prob_pct": 64.29,
+          "expected_value_ev_pct": 3.2,
+          "market_edge_pct": 4.51,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Valor esperado marginal (+3.2%) insuficiente para superar el umbral de varianza (3.5% mÃ­n requerido).",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "CHI",
+          "estimated_prob_pct": 31.2,
+          "fair_odds": 3.205,
+          "market_odds": 2.7,
+          "no_vig_market_prob_pct": 35.71,
+          "expected_value_ev_pct": -15.76,
+          "market_edge_pct": -4.51,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -15.76%). Cuota ofrecida 2.7 por debajo de la cuota justa requerida 3.205.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 81.67 pts",
+          "Diferencial EPA pase: +0.250",
+          "Diferencial Success Rate: +8.5%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 63.44 pts",
+          "Diferencial EPA pase: +0.100",
+          "Diferencial Success Rate: +3.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.230328+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_CHI_GB_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T17:00:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.177104+00:00",
+          "team": "GB",
+          "off_epa_play": 0.13,
+          "def_epa_play_allowed": -0.05,
+          "off_success_rate": 47.5,
+          "def_success_rate_allowed": 41.0,
+          "off_pass_epa": 0.18,
+          "def_pass_epa_allowed": -0.02,
+          "off_rush_epa": 0.08,
+          "def_rush_epa_allowed": -0.08,
+          "points_scored_pg": 27.5,
+          "points_allowed_pg": 20.5,
+          "yards_per_play": 6.1,
+          "yards_per_play_allowed": 5.1,
+          "turnover_diff": 2,
+          "red_zone_pct": 63.0,
+          "def_red_zone_pct_allowed": 49.0,
+          "sacks_allowed_pg": 1.8,
+          "def_pressure_rate": 36.0,
+          "explosive_plays_for_pg": 5.9,
+          "explosive_plays_allowed_pg": 3.9
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.184722+00:00",
+          "team": "CHI",
+          "off_epa_play": 0.04,
+          "def_epa_play_allowed": -0.08,
+          "off_success_rate": 44.0,
+          "def_success_rate_allowed": 39.0,
+          "off_pass_epa": 0.08,
+          "def_pass_epa_allowed": -0.07,
+          "off_rush_epa": -0.01,
+          "def_rush_epa_allowed": -0.09,
+          "points_scored_pg": 21.5,
+          "points_allowed_pg": 17.0,
+          "yards_per_play": 5.2,
+          "yards_per_play_allowed": 4.7,
+          "turnover_diff": 3,
+          "red_zone_pct": 56.0,
+          "def_red_zone_pct_allowed": 44.0,
+          "sacks_allowed_pg": 2.3,
+          "def_pressure_rate": 37.0,
+          "explosive_plays_for_pg": 4.7,
+          "explosive_plays_allowed_pg": 3.4
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Jordan Love",
+          "base_rating": 65.28,
+          "effective_rating": 65.28,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.2,
+            "cpoe": 4.0,
+            "passer_rating": 100.5,
+            "under_pressure_rating": 85.0,
+            "sack_pct": 4.3,
+            "ball_security_penalties": 8
+          }
+        },
+        "away": {
+          "qb_name": "Caleb Williams",
+          "base_rating": 51.62,
+          "effective_rating": 51.62,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.08,
+            "cpoe": 2.5,
+            "passer_rating": 89.0,
+            "under_pressure_rating": 74.0,
+            "sack_pct": 6.6,
+            "ball_security_penalties": 7
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 81.1,
+          "ground_matchup_score": 84.0,
+          "trench_protection_score": 88.0,
+          "success_rate_advantage": 78.3,
+          "situational_clutch_score": 76.0,
+          "explosive_advantage_score": 81.2,
+          "composite_offensive_strength": 81.67,
+          "key_factors": {
+            "air_epa_diff": 0.25,
+            "rush_epa_diff": 0.17,
+            "trench_diff_adj": 24.0,
+            "sr_diff": 8.5,
+            "red_zone_diff": 19.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 60.6,
+          "ground_matchup_score": 64.0,
+          "trench_protection_score": 74.0,
+          "success_rate_advantage": 60.0,
+          "situational_clutch_score": 61.0,
+          "explosive_advantage_score": 60.0,
+          "composite_offensive_strength": 63.44,
+          "key_factors": {
+            "air_epa_diff": 0.1,
+            "rush_epa_diff": 0.07,
+            "trench_diff_adj": 17.0,
+            "sr_diff": 3.0,
+            "red_zone_diff": 7.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.184722+00:00",
+          "team": "GB",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.184722+00:00",
+          "team": "CHI",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.12,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.0,
+        "is_divisional": true,
+        "details": {
+          "stadium": "Lambeau Field",
+          "altitude_ft": 640,
+          "surface": "Grass",
+          "dome": false,
+          "temp_f": 69.6,
+          "wind_mph": 11.3,
+          "weather_condition": "Despejado / Parcialmente Nublado"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 1.5,
+            "odds_american": -200,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 2.7,
+            "odds_american": 170,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 64.29,
+          "away": 35.71
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 1.5,
+              "away": 2.7,
+              "home_american": -200,
+              "away_american": 170
+            },
+            "current_odds": {
+              "home": 1.5,
+              "away": 2.7,
+              "home_american": -200,
+              "away_american": 170
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 66.67,
+              "away": 37.04
+            },
+            "no_vig_prob": {
+              "home": 64.29,
+              "away": 35.71
+            },
+            "vig_pct": 3.7,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 1.48,
+              "away": 2.75,
+              "home_american": -208,
+              "away_american": 175
+            },
+            "current_odds": {
+              "home": 1.5,
+              "away": 2.7,
+              "home_american": -200,
+              "away_american": 170
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 66.67,
+              "away": 37.04
+            },
+            "no_vig_prob": {
+              "home": 64.29,
+              "away": 35.71
+            },
+            "vig_pct": 3.7,
+            "line_movement": {
+              "home_delta": 0.02,
+              "away_delta": -0.05,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.13,
+            "epa_def": -0.05,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.13,
+            "epa_def": -0.05,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.15,
+            "epa_def": -0.060000000000000005,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.16,
+            "epa_def": -0.07,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.04,
+            "epa_def": -0.08,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.04,
+            "epa_def": -0.08,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.05,
+            "epa_def": -0.08,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.06,
+            "epa_def": -0.08,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "DEN@LAC",
+      "home_team": "LAC",
+      "away_team": "DEN",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "DEN 27.9 @ LAC 27.2",
+      "fair_spread": 0.6,
+      "fair_total": 55.1,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "LAC",
+          "estimated_prob_pct": 47.78,
+          "fair_odds": 2.093,
+          "market_odds": 2.45,
+          "no_vig_market_prob_pct": 39.21,
+          "expected_value_ev_pct": 17.06,
+          "market_edge_pct": 8.57,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +17.06%, cuota 2.45 superior a cuota justa 2.093 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "DEN",
+          "estimated_prob_pct": 52.22,
+          "fair_odds": 1.915,
+          "market_odds": 1.58,
+          "no_vig_market_prob_pct": 60.79,
+          "expected_value_ev_pct": -17.49,
+          "market_edge_pct": -8.57,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -17.49%). Cuota ofrecida 1.58 por debajo de la cuota justa requerida 1.915.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 64.5 pts",
+          "Diferencial EPA pase: +0.120",
+          "Diferencial Success Rate: +4.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 70.22 pts",
+          "Diferencial EPA pase: +0.130",
+          "Diferencial Success Rate: +4.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.288986+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_DEN_LAC_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T20:05:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "LAC",
+          "off_epa_play": -0.01,
+          "def_epa_play_allowed": -0.06,
+          "off_success_rate": 42.0,
+          "def_success_rate_allowed": 41.0,
+          "off_pass_epa": 0.02,
+          "def_pass_epa_allowed": -0.05,
+          "off_rush_epa": -0.04,
+          "def_rush_epa_allowed": -0.07,
+          "points_scored_pg": 19.5,
+          "points_allowed_pg": 20.0,
+          "yards_per_play": 5.0,
+          "yards_per_play_allowed": 5.0,
+          "turnover_diff": 0,
+          "red_zone_pct": 52.0,
+          "def_red_zone_pct_allowed": 48.0,
+          "sacks_allowed_pg": 2.6,
+          "def_pressure_rate": 33.0,
+          "explosive_plays_for_pg": 4.2,
+          "explosive_plays_allowed_pg": 3.8
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "DEN",
+          "off_epa_play": 0.05,
+          "def_epa_play_allowed": -0.1,
+          "off_success_rate": 45.0,
+          "def_success_rate_allowed": 38.0,
+          "off_pass_epa": 0.08,
+          "def_pass_epa_allowed": -0.1,
+          "off_rush_epa": 0.02,
+          "def_rush_epa_allowed": -0.1,
+          "points_scored_pg": 24.0,
+          "points_allowed_pg": 15.0,
+          "yards_per_play": 5.5,
+          "yards_per_play_allowed": 4.6,
+          "turnover_diff": 3,
+          "red_zone_pct": 60.0,
+          "def_red_zone_pct_allowed": 42.0,
+          "sacks_allowed_pg": 1.9,
+          "def_pressure_rate": 41.0,
+          "explosive_plays_for_pg": 4.8,
+          "explosive_plays_allowed_pg": 3.2
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Justin Herbert",
+          "base_rating": 53.52,
+          "effective_rating": 53.52,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.08,
+            "cpoe": 1.5,
+            "passer_rating": 89.0,
+            "under_pressure_rating": 76.0,
+            "sack_pct": 5.2,
+            "ball_security_penalties": 6
+          }
+        },
+        "away": {
+          "qb_name": "Bo Nix",
+          "base_rating": 57.45,
+          "effective_rating": 57.45,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.08,
+            "cpoe": 2.2,
+            "passer_rating": 92.0,
+            "under_pressure_rating": 80.0,
+            "sack_pct": 4.8,
+            "ball_security_penalties": 5
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 63.4,
+          "ground_matchup_score": 62.0,
+          "trench_protection_score": 70.0,
+          "success_rate_advantage": 63.3,
+          "situational_clutch_score": 65.0,
+          "explosive_advantage_score": 62.5,
+          "composite_offensive_strength": 64.5,
+          "key_factors": {
+            "air_epa_diff": 0.12,
+            "rush_epa_diff": 0.06,
+            "trench_diff_adj": 15.0,
+            "sr_diff": 4.0,
+            "red_zone_diff": 10.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 66.0,
+          "ground_matchup_score": 68.0,
+          "trench_protection_score": 92.0,
+          "success_rate_advantage": 63.3,
+          "situational_clutch_score": 66.0,
+          "explosive_advantage_score": 62.5,
+          "composite_offensive_strength": 70.22,
+          "key_factors": {
+            "air_epa_diff": 0.13,
+            "rush_epa_diff": 0.09,
+            "trench_diff_adj": 26.0,
+            "sr_diff": 4.0,
+            "red_zone_diff": 12.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "LAC",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "DEN",
+          "players": [
+            {
+              "name": "Patrick Surtain II",
+              "position": "CB",
+              "game_status": "ACTIVE",
+              "practice_status": "FP",
+              "injury_type": "None",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.12,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.02,
+        "is_divisional": true,
+        "details": {
+          "stadium": "SoFi Stadium",
+          "altitude_ft": 120,
+          "surface": "Turf",
+          "dome": true,
+          "temp_f": 72.0,
+          "wind_mph": 0.0,
+          "weather_condition": "Dome (Controlled Indoor Environment)"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 2.45,
+            "odds_american": 145,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.58,
+            "odds_american": -172,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 39.21,
+          "away": 60.79
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 2.45,
+              "away": 1.58,
+              "home_american": 145,
+              "away_american": -172
+            },
+            "current_odds": {
+              "home": 2.45,
+              "away": 1.58,
+              "home_american": 145,
+              "away_american": -172
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 40.82,
+              "away": 63.29
+            },
+            "no_vig_prob": {
+              "home": 39.21,
+              "away": 60.79
+            },
+            "vig_pct": 4.11,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 2.48,
+              "away": 1.56,
+              "home_american": 148,
+              "away_american": -179
+            },
+            "current_odds": {
+              "home": 2.45,
+              "away": 1.58,
+              "home_american": 145,
+              "away_american": -172
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 40.82,
+              "away": 63.29
+            },
+            "no_vig_prob": {
+              "home": 39.21,
+              "away": 60.79
+            },
+            "vig_pct": 4.11,
+            "line_movement": {
+              "home_delta": -0.03,
+              "away_delta": 0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": -0.01,
+            "epa_def": -0.06,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": -0.01,
+            "epa_def": -0.06,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.01,
+            "epa_def": -0.06999999999999999,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.019999999999999997,
+            "epa_def": -0.08,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.05,
+            "epa_def": -0.1,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.05,
+            "epa_def": -0.1,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.060000000000000005,
+            "epa_def": -0.1,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.07,
+            "epa_def": -0.1,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "DET@ARI",
+      "home_team": "ARI",
+      "away_team": "DET",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "DET 28.5 @ ARI 27.6",
+      "fair_spread": 0.9,
+      "fair_total": 56.2,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "ARI",
+          "estimated_prob_pct": 47.57,
+          "fair_odds": 2.102,
+          "market_odds": 2.95,
+          "no_vig_market_prob_pct": 32.8,
+          "expected_value_ev_pct": 40.33,
+          "market_edge_pct": 14.77,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +40.33%, cuota 2.95 superior a cuota justa 2.102 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "DET",
+          "estimated_prob_pct": 52.43,
+          "fair_odds": 1.907,
+          "market_odds": 1.44,
+          "no_vig_market_prob_pct": 67.2,
+          "expected_value_ev_pct": -24.5,
+          "market_edge_pct": -14.77,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -24.5%). Cuota ofrecida 1.44 por debajo de la cuota justa requerida 1.907.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 62.98 pts",
+          "Diferencial EPA pase: +0.060",
+          "Diferencial Success Rate: +2.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 75.23 pts",
+          "Diferencial EPA pase: +0.130",
+          "Diferencial Success Rate: +5.5%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.346530+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_DET_ARI_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T20:25:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "ARI",
+          "off_epa_play": 0.05,
+          "def_epa_play_allowed": 0.06,
+          "off_success_rate": 44.0,
+          "def_success_rate_allowed": 45.0,
+          "off_pass_epa": 0.08,
+          "def_pass_epa_allowed": 0.1,
+          "off_rush_epa": 0.02,
+          "def_rush_epa_allowed": 0.01,
+          "points_scored_pg": 23.0,
+          "points_allowed_pg": 25.5,
+          "yards_per_play": 5.5,
+          "yards_per_play_allowed": 5.6,
+          "turnover_diff": -1,
+          "red_zone_pct": 58.0,
+          "def_red_zone_pct_allowed": 62.0,
+          "sacks_allowed_pg": 2.4,
+          "def_pressure_rate": 29.0,
+          "explosive_plays_for_pg": 4.9,
+          "explosive_plays_allowed_pg": 4.8
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "DET",
+          "off_epa_play": 0.18,
+          "def_epa_play_allowed": -0.02,
+          "off_success_rate": 50.5,
+          "def_success_rate_allowed": 42.0,
+          "off_pass_epa": 0.23,
+          "def_pass_epa_allowed": 0.02,
+          "off_rush_epa": 0.12,
+          "def_rush_epa_allowed": -0.07,
+          "points_scored_pg": 30.5,
+          "points_allowed_pg": 19.5,
+          "yards_per_play": 6.4,
+          "yards_per_play_allowed": 5.1,
+          "turnover_diff": 4,
+          "red_zone_pct": 70.0,
+          "def_red_zone_pct_allowed": 48.0,
+          "sacks_allowed_pg": 1.6,
+          "def_pressure_rate": 36.0,
+          "explosive_plays_for_pg": 6.2,
+          "explosive_plays_allowed_pg": 3.8
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Kyler Murray",
+          "base_rating": 53.23,
+          "effective_rating": 53.23,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.09,
+            "cpoe": 2.1,
+            "passer_rating": 91.0,
+            "under_pressure_rating": 76.0,
+            "sack_pct": 6.0,
+            "ball_security_penalties": 7
+          }
+        },
+        "away": {
+          "qb_name": "Jared Goff",
+          "base_rating": 76.52,
+          "effective_rating": 76.52,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.25,
+            "cpoe": 5.8,
+            "passer_rating": 108.5,
+            "under_pressure_rating": 88.0,
+            "sack_pct": 4.0,
+            "ball_security_penalties": 5
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 57.3,
+          "ground_matchup_score": 68.0,
+          "trench_protection_score": 74.0,
+          "success_rate_advantage": 56.7,
+          "situational_clutch_score": 61.0,
+          "explosive_advantage_score": 63.8,
+          "composite_offensive_strength": 62.98,
+          "key_factors": {
+            "air_epa_diff": 0.06,
+            "rush_epa_diff": 0.09,
+            "trench_diff_adj": 17.0,
+            "sr_diff": 2.0,
+            "red_zone_diff": 10.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 73.6,
+          "ground_matchup_score": 72.0,
+          "trench_protection_score": 100.0,
+          "success_rate_advantage": 68.3,
+          "situational_clutch_score": 63.0,
+          "explosive_advantage_score": 67.5,
+          "composite_offensive_strength": 75.23,
+          "key_factors": {
+            "air_epa_diff": 0.13,
+            "rush_epa_diff": 0.11,
+            "trench_diff_adj": 38.0,
+            "sr_diff": 5.5,
+            "red_zone_diff": 8.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "ARI",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "DET",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 2.8,
+        "altitude_boost": 0.3,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 1.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.02,
+        "is_divisional": false,
+        "details": {
+          "stadium": "State Farm Stadium",
+          "altitude_ft": 1070,
+          "surface": "Grass",
+          "dome": true,
+          "temp_f": 72.0,
+          "wind_mph": 0.0,
+          "weather_condition": "Dome (Controlled Indoor Environment)"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 2.95,
+            "odds_american": 195,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.44,
+            "odds_american": -227,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 32.8,
+          "away": 67.2
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 2.95,
+              "away": 1.44,
+              "home_american": 195,
+              "away_american": -227
+            },
+            "current_odds": {
+              "home": 2.95,
+              "away": 1.44,
+              "home_american": 195,
+              "away_american": -227
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 33.9,
+              "away": 69.44
+            },
+            "no_vig_prob": {
+              "home": 32.8,
+              "away": 67.2
+            },
+            "vig_pct": 3.34,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 3.0,
+              "away": 1.42,
+              "home_american": 200,
+              "away_american": -238
+            },
+            "current_odds": {
+              "home": 2.95,
+              "away": 1.44,
+              "home_american": 195,
+              "away_american": -227
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 33.9,
+              "away": 69.44
+            },
+            "no_vig_prob": {
+              "home": 32.8,
+              "away": 67.2
+            },
+            "vig_pct": 3.34,
+            "line_movement": {
+              "home_delta": -0.05,
+              "away_delta": 0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.05,
+            "epa_def": 0.06,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.05,
+            "epa_def": 0.06,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.07,
+            "epa_def": 0.049999999999999996,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.08,
+            "epa_def": 0.039999999999999994,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.18,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.18,
+            "epa_def": -0.02,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.19,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.19999999999999998,
+            "epa_def": -0.02,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "SF@SEA",
+      "home_team": "SEA",
+      "away_team": "SF",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "SF 26.5 @ SEA 27.0",
+      "fair_spread": -0.4,
+      "fair_total": 53.5,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "SEA",
+          "estimated_prob_pct": 51.09,
+          "fair_odds": 1.957,
+          "market_odds": 2.4,
+          "no_vig_market_prob_pct": 40.0,
+          "expected_value_ev_pct": 22.62,
+          "market_edge_pct": 11.09,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +22.62%, cuota 2.4 superior a cuota justa 1.957 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "SF",
+          "estimated_prob_pct": 48.91,
+          "fair_odds": 2.045,
+          "market_odds": 1.6,
+          "no_vig_market_prob_pct": 60.0,
+          "expected_value_ev_pct": -21.74,
+          "market_edge_pct": -11.09,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -21.74%). Cuota ofrecida 1.6 por debajo de la cuota justa requerida 2.045.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 65.31 pts",
+          "Diferencial EPA pase: +0.120",
+          "Diferencial Success Rate: +2.0%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 67.58 pts",
+          "Diferencial EPA pase: +0.140",
+          "Diferencial Success Rate: +3.5%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.396415+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_SF_SEA_20261011_161138.json",
+      "kickoff_utc": "2026-10-11T20:25:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "SEA",
+          "off_epa_play": 0.07,
+          "def_epa_play_allowed": 0.01,
+          "off_success_rate": 45.0,
+          "def_success_rate_allowed": 43.0,
+          "off_pass_epa": 0.13,
+          "def_pass_epa_allowed": 0.04,
+          "off_rush_epa": 0.0,
+          "def_rush_epa_allowed": -0.03,
+          "points_scored_pg": 24.5,
+          "points_allowed_pg": 22.0,
+          "yards_per_play": 5.6,
+          "yards_per_play_allowed": 5.3,
+          "turnover_diff": 0,
+          "red_zone_pct": 58.0,
+          "def_red_zone_pct_allowed": 54.0,
+          "sacks_allowed_pg": 2.5,
+          "def_pressure_rate": 35.0,
+          "explosive_plays_for_pg": 5.3,
+          "explosive_plays_allowed_pg": 4.4
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "SF",
+          "off_epa_play": 0.11,
+          "def_epa_play_allowed": -0.03,
+          "off_success_rate": 46.5,
+          "def_success_rate_allowed": 43.0,
+          "off_pass_epa": 0.18,
+          "def_pass_epa_allowed": 0.01,
+          "off_rush_epa": 0.04,
+          "def_rush_epa_allowed": -0.08,
+          "points_scored_pg": 25.0,
+          "points_allowed_pg": 20.5,
+          "yards_per_play": 5.7,
+          "yards_per_play_allowed": 5.1,
+          "turnover_diff": 2,
+          "red_zone_pct": 61.0,
+          "def_red_zone_pct_allowed": 54.0,
+          "sacks_allowed_pg": 2.2,
+          "def_pressure_rate": 34.0,
+          "explosive_plays_for_pg": 5.2,
+          "explosive_plays_allowed_pg": 4.1
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Geno Smith",
+          "base_rating": 58.61,
+          "effective_rating": 58.61,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.15,
+            "cpoe": 3.1,
+            "passer_rating": 95.0,
+            "under_pressure_rating": 80.0,
+            "sack_pct": 6.1,
+            "ball_security_penalties": 7
+          }
+        },
+        "away": {
+          "qb_name": "Brock Purdy",
+          "base_rating": 60.96,
+          "effective_rating": 60.96,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.19,
+            "cpoe": 3.5,
+            "passer_rating": 99.4,
+            "under_pressure_rating": 81.2,
+            "sack_pct": 5.5,
+            "ball_security_penalties": 9
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 65.4,
+          "ground_matchup_score": 66.0,
+          "trench_protection_score": 78.0,
+          "success_rate_advantage": 56.7,
+          "situational_clutch_score": 57.5,
+          "explosive_advantage_score": 65.0,
+          "composite_offensive_strength": 65.31,
+          "key_factors": {
+            "air_epa_diff": 0.12,
+            "rush_epa_diff": 0.08,
+            "trench_diff_adj": 19.0,
+            "sr_diff": 2.0,
+            "red_zone_diff": 4.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 68.4,
+          "ground_matchup_score": 64.0,
+          "trench_protection_score": 82.0,
+          "success_rate_advantage": 61.7,
+          "situational_clutch_score": 63.0,
+          "explosive_advantage_score": 60.0,
+          "composite_offensive_strength": 67.58,
+          "key_factors": {
+            "air_epa_diff": 0.14,
+            "rush_epa_diff": 0.07,
+            "trench_diff_adj": 21.0,
+            "sr_diff": 3.5,
+            "red_zone_diff": 7.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "SEA",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:36.925967+00:00",
+          "team": "SF",
+          "players": [
+            {
+              "name": "Christian McCaffrey",
+              "position": "RB",
+              "game_status": "QUESTIONABLE",
+              "practice_status": "LP",
+              "injury_type": "Achilles",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.12,
+        "altitude_boost": 0.0,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.0,
+        "is_divisional": true,
+        "details": {
+          "stadium": "Lumen Field",
+          "altitude_ft": 20,
+          "surface": "Turf",
+          "dome": false,
+          "temp_f": 46.9,
+          "wind_mph": 5.4,
+          "weather_condition": "Despejado / Parcialmente Nublado"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 2.4,
+            "odds_american": 140,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.6,
+            "odds_american": -167,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 40.0,
+          "away": 60.0
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 2.4,
+              "away": 1.6,
+              "home_american": 140,
+              "away_american": -167
+            },
+            "current_odds": {
+              "home": 2.4,
+              "away": 1.6,
+              "home_american": 140,
+              "away_american": -167
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 41.67,
+              "away": 62.5
+            },
+            "no_vig_prob": {
+              "home": 40.0,
+              "away": 60.0
+            },
+            "vig_pct": 4.17,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 2.42,
+              "away": 1.58,
+              "home_american": 142,
+              "away_american": -172
+            },
+            "current_odds": {
+              "home": 2.4,
+              "away": 1.6,
+              "home_american": 140,
+              "away_american": -167
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 41.67,
+              "away": 62.5
+            },
+            "no_vig_prob": {
+              "home": 40.0,
+              "away": 60.0
+            },
+            "vig_pct": 4.17,
+            "line_movement": {
+              "home_delta": -0.02,
+              "away_delta": 0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.07,
+            "epa_def": 0.01,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.07,
+            "epa_def": 0.01,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.09000000000000001,
+            "epa_def": 0.0,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.1,
+            "epa_def": -0.01,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.11,
+            "epa_def": -0.03,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.11,
+            "epa_def": -0.03,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.12,
+            "epa_def": -0.03,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.13,
+            "epa_def": -0.03,
+            "win_pct": 66.7
+          }
+        }
+      }
+    },
+    {
+      "game_id": "BAL@ATL",
+      "home_team": "ATL",
+      "away_team": "BAL",
+      "global_decision": "APUESTA CANDIDATA",
+      "projected_score": "BAL 31.7 @ ATL 29.8",
+      "fair_spread": 2.0,
+      "fair_total": 61.5,
+      "sides_analysis": [
+        {
+          "side": "HOME",
+          "team": "ATL",
+          "estimated_prob_pct": 44.45,
+          "fair_odds": 2.25,
+          "market_odds": 2.55,
+          "no_vig_market_prob_pct": 37.8,
+          "expected_value_ev_pct": 13.35,
+          "market_edge_pct": 6.65,
+          "decision": "APUESTA CANDIDATA",
+          "decision_reason": "Cumple todos los criterios conservadores: EV +13.35%, cuota 2.55 superior a cuota justa 2.25 con margen de seguridad.",
+          "sportsbook": "Pinnacle"
+        },
+        {
+          "side": "AWAY",
+          "team": "BAL",
+          "estimated_prob_pct": 55.55,
+          "fair_odds": 1.8,
+          "market_odds": 1.55,
+          "no_vig_market_prob_pct": 62.2,
+          "expected_value_ev_pct": -13.9,
+          "market_edge_pct": -6.65,
+          "decision": "DEJAR PASAR",
+          "decision_reason": "Sin valor esperado frente al mercado (EV: -13.9%). Cuota ofrecida 1.55 por debajo de la cuota justa requerida 1.8.",
+          "sportsbook": "Pinnacle"
+        }
+      ],
+      "statistical_factors": {
+        "favoring_home": [
+          "Fuerza combinada: 71.58 pts",
+          "Diferencial EPA pase: +0.100",
+          "Diferencial Success Rate: +4.5%"
+        ],
+        "favoring_away": [
+          "Fuerza combinada: 83.96 pts",
+          "Diferencial EPA pase: +0.220",
+          "Diferencial Success Rate: +8.0%"
+        ]
+      },
+      "injuries_and_uncertainties": {
+        "home_qb": "HEALTHY",
+        "away_qb": "HEALTHY",
+        "home_ol": "HEALTHY",
+        "away_ol": "HEALTHY"
+      },
+      "updated_at": "2026-10-11T16:11:38.453953+00:00",
+      "snapshot_file": "C:\\Users\\29dav\\.gemini\\antigravity\\scratch\\nfl_betting_app\\storage\\snapshots\\GAME_BAL_ATL_20261011_161138.json",
+      "kickoff_utc": "2026-10-12T00:20:00Z",
+      "block_a_efficiency": {
+        "home": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+          "team": "ATL",
+          "off_epa_play": 0.1,
+          "def_epa_play_allowed": 0.0,
+          "off_success_rate": 46.5,
+          "def_success_rate_allowed": 43.0,
+          "off_pass_epa": 0.15,
+          "def_pass_epa_allowed": 0.03,
+          "off_rush_epa": 0.04,
+          "def_rush_epa_allowed": -0.04,
+          "points_scored_pg": 25.5,
+          "points_allowed_pg": 22.0,
+          "yards_per_play": 5.8,
+          "yards_per_play_allowed": 5.3,
+          "turnover_diff": 1,
+          "red_zone_pct": 63.0,
+          "def_red_zone_pct_allowed": 53.0,
+          "sacks_allowed_pg": 1.7,
+          "def_pressure_rate": 30.0,
+          "explosive_plays_for_pg": 5.4,
+          "explosive_plays_allowed_pg": 4.3
+        },
+        "away": {
+          "source": "NFL.com NextGen & Official Stats",
+          "source_url": "https://www.nfl.com/stats/player-stats/",
+          "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+          "team": "BAL",
+          "off_epa_play": 0.18,
+          "def_epa_play_allowed": -0.02,
+          "off_success_rate": 51.0,
+          "def_success_rate_allowed": 42.0,
+          "off_pass_epa": 0.25,
+          "def_pass_epa_allowed": 0.05,
+          "off_rush_epa": 0.12,
+          "def_rush_epa_allowed": -0.1,
+          "points_scored_pg": 29.5,
+          "points_allowed_pg": 21.2,
+          "yards_per_play": 6.5,
+          "yards_per_play_allowed": 5.2,
+          "turnover_diff": 3,
+          "red_zone_pct": 72.0,
+          "def_red_zone_pct_allowed": 52.0,
+          "sacks_allowed_pg": 1.5,
+          "def_pressure_rate": 35.0,
+          "explosive_plays_for_pg": 6.5,
+          "explosive_plays_allowed_pg": 4.0
+        }
+      },
+      "block_b_qb": {
+        "home": {
+          "qb_name": "Kirk Cousins",
+          "base_rating": 62.87,
+          "effective_rating": 62.87,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.16,
+            "cpoe": 3.5,
+            "passer_rating": 99.0,
+            "under_pressure_rating": 82.0,
+            "sack_pct": 4.4,
+            "ball_security_penalties": 7
+          }
+        },
+        "away": {
+          "qb_name": "Lamar Jackson",
+          "base_rating": 81.01,
+          "effective_rating": 81.01,
+          "penalty_applied": 0.0,
+          "status_note": "QB titular al 100%",
+          "metrics": {
+            "epa_dropback": 0.28,
+            "cpoe": 6.2,
+            "passer_rating": 110.4,
+            "under_pressure_rating": 92.5,
+            "sack_pct": 4.2,
+            "ball_security_penalties": 4
+          }
+        }
+      },
+      "block_c_matchup": {
+        "home_off_vs_away_def": {
+          "air_matchup_score": 65.1,
+          "ground_matchup_score": 78.0,
+          "trench_protection_score": 86.0,
+          "success_rate_advantage": 65.0,
+          "situational_clutch_score": 69.0,
+          "explosive_advantage_score": 67.5,
+          "composite_offensive_strength": 71.58,
+          "key_factors": {
+            "air_epa_diff": 0.1,
+            "rush_epa_diff": 0.14,
+            "trench_diff_adj": 23.0,
+            "sr_diff": 4.5,
+            "red_zone_diff": 11.0
+          }
+        },
+        "away_off_vs_home_def": {
+          "air_matchup_score": 84.4,
+          "ground_matchup_score": 82.0,
+          "trench_protection_score": 100.0,
+          "success_rate_advantage": 76.7,
+          "situational_clutch_score": 77.0,
+          "explosive_advantage_score": 77.5,
+          "composite_offensive_strength": 83.96,
+          "key_factors": {
+            "air_epa_diff": 0.22,
+            "rush_epa_diff": 0.16,
+            "trench_diff_adj": 31.0,
+            "sr_diff": 8.0,
+            "red_zone_diff": 19.0
+          }
+        }
+      },
+      "block_d_injuries": {
+        "home": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+          "team": "ATL",
+          "players": [],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        },
+        "away": {
+          "source": "NFL Official Injury Report",
+          "source_url": "https://www.nfl.com/injuries/",
+          "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+          "team": "BAL",
+          "players": [
+            {
+              "name": "Marlon Humphrey",
+              "position": "CB",
+              "game_status": "ACTIVE",
+              "practice_status": "FP",
+              "injury_type": "Ankle",
+              "is_starter": true,
+              "tier_impact": "HIGH"
+            }
+          ],
+          "ol_health": {
+            "ol_starters_out": [],
+            "ol_starters_questionable": [],
+            "ol_penalty_points": 0.0,
+            "ol_status": "HEALTHY"
+          },
+          "qb_health": {
+            "status": "HEALTHY",
+            "name": "Titular en plenitud",
+            "penalty": 0.0
+          }
+        }
+      },
+      "block_e_context": {
+        "net_home_advantage_points": 1.8,
+        "altitude_boost": 0.3,
+        "rest_adjustment": 0.0,
+        "travel_penalty_away": 0.0,
+        "weather_drag_points": 0.0,
+        "passing_efficiency_multiplier": 1.0,
+        "scoring_multiplier": 1.02,
+        "is_divisional": false,
+        "details": {
+          "stadium": "Mercedes-Benz Stadium",
+          "altitude_ft": 1050,
+          "surface": "Turf",
+          "dome": true,
+          "temp_f": 72.0,
+          "wind_mph": 0.0,
+          "weather_condition": "Dome (Controlled Indoor Environment)"
+        }
+      },
+      "block_f_market": {
+        "source": "The Odds API & Sportsbook Aggregator",
+        "source_url": "https://the-odds-api.com/sports/nfl-odds.html",
+        "extracted_at": "2026-10-11T16:11:37.792332+00:00",
+        "best_odds": {
+          "home": {
+            "odds_decimal": 2.55,
+            "odds_american": 155,
+            "sportsbook": "Pinnacle"
+          },
+          "away": {
+            "odds_decimal": 1.55,
+            "odds_american": -182,
+            "sportsbook": "Pinnacle"
+          }
+        },
+        "consensus_no_vig_prob": {
+          "home": 37.8,
+          "away": 62.2
+        },
+        "books_detail": {
+          "Pinnacle": {
+            "open_odds": {
+              "home": 2.55,
+              "away": 1.55,
+              "home_american": 155,
+              "away_american": -182
+            },
+            "current_odds": {
+              "home": 2.55,
+              "away": 1.55,
+              "home_american": 155,
+              "away_american": -182
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 39.22,
+              "away": 64.52
+            },
+            "no_vig_prob": {
+              "home": 37.8,
+              "away": 62.2
+            },
+            "vig_pct": 3.73,
+            "line_movement": {
+              "home_delta": 0.0,
+              "away_delta": 0.0,
+              "steam_trend": "STABLE"
+            }
+          },
+          "DraftKings": {
+            "open_odds": {
+              "home": 2.58,
+              "away": 1.53,
+              "home_american": 158,
+              "away_american": -189
+            },
+            "current_odds": {
+              "home": 2.55,
+              "away": 1.55,
+              "home_american": 155,
+              "away_american": -182
+            },
+            "closing_odds": null,
+            "raw_implied_prob": {
+              "home": 39.22,
+              "away": 64.52
+            },
+            "no_vig_prob": {
+              "home": 37.8,
+              "away": 62.2
+            },
+            "vig_pct": 3.73,
+            "line_movement": {
+              "home_delta": -0.03,
+              "away_delta": 0.02,
+              "steam_trend": "STABLE"
+            }
+          }
+        }
+      },
+      "rolling_windows": {
+        "home": {
+          "season": {
+            "epa_off": 0.1,
+            "epa_def": 0.0,
+            "win_pct": 65.0
+          },
+          "l8": {
+            "epa_off": 0.1,
+            "epa_def": 0.0,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.12000000000000001,
+            "epa_def": -0.01,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.13,
+            "epa_def": -0.02,
+            "win_pct": 66.7
+          }
+        },
+        "away": {
+          "season": {
+            "epa_off": 0.18,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l8": {
+            "epa_off": 0.18,
+            "epa_def": -0.02,
+            "win_pct": 62.5
+          },
+          "l5": {
+            "epa_off": 0.19,
+            "epa_def": -0.02,
+            "win_pct": 60.0
+          },
+          "l3": {
+            "epa_off": 0.19999999999999998,
+            "epa_def": -0.02,
+            "win_pct": 66.7
+          }
+        }
+      }
+    }
+  ]
+};

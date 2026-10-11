@@ -1,0 +1,24 @@
+{
+  "weights": {
+    "qb_passing": 0.25,
+    "pass_defense": 0.20,
+    "general_offense": 0.15,
+    "trenches_ol_dl": 0.10,
+    "rushing_game": 0.08,
+    "situational_clutch": 0.07,
+    "contextual_adjustments": 0.15
+  },
+  "contextual_factors": {
+    "home_field_advantage_points": 1.8,
+    "rest_advantage_per_day": 0.35,
+    "divisional_game_dampener": 0.85,
+    "wind_penalty_threshold_mph": 14.0,
+    "h2h_weight": 0.03
+  },
+  "betting_thresholds": {
+    "min_edge_spread_points": 1.5,
+    "min_edge_total_points": 2.0,
+    "min_ev_percentage": 3.0,
+    "kelly_fraction": 0.25
+  }
+}

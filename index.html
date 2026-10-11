@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFL Quantum Edge - Sistema Predictivo Automático & Valor (+EV)</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            gray: {
+              850: '#18202F',
+              900: '#0F172A',
+              950: '#090D16'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #0F172A; }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen flex flex-col selection:bg-cyan-500 selection:text-black">
+
+  <!-- Header -->
+  <header class="border-b border-gray-800 bg-gray-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg font-black text-xl text-black">
+          🏈
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-extrabold text-lg tracking-tight text-white">NFL PREDICTIVE QUANT ENGINE</span>
+            <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Criterios Conservadores +EV</span>
+          </div>
+          <p class="text-[11px] text-gray-400">NFL.com &bull; PFR &bull; Injury Report &bull; NWS Weather &bull; The Odds API (No-Vig)</p>
+        </div>
+      </div>
+
+      <!-- Live Pipeline Control & 2-Min Timer -->
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 bg-cyan-950/70 border border-cyan-800/80 px-3 py-1 rounded-full text-xs text-cyan-300">
+          <span class="text-[10px] text-gray-400 uppercase font-bold">Auto-Sync:</span>
+          <span id="auto-refresh-timer" class="font-mono font-bold text-cyan-400">02:00</span>
+          <button onclick="location.reload()" title="Sincronizar ahora" class="text-cyan-400 hover:text-white transition">
+            🔄
+          </button>
+        </div>
+        <div id="status-indicator" class="flex items-center gap-1.5 px-3 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span id="last-updated-text">Actualizado</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+    <!-- KPI Summary Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="bg-gray-900 border border-emerald-900/60 p-4 rounded-xl">
+        <div class="text-[11px] font-bold uppercase tracking-wider text-emerald-400">Apuestas Candidatas (+EV)</div>
+        <div id="kpi-candidatas" class="text-3xl font-extrabold text-emerald-300 font-mono mt-1">0</div>
+        <div class="text-[11px] text-gray-400 mt-1">Cumplen EV $\ge$ +3.5% y filtro conservador</div>
+      </div>
+      <div class="bg-gray-900 border border-amber-900/60 p-4 rounded-xl">
+        <div class="text-[11px] font-bold uppercase tracking-wider text-amber-400">Partidos a Esperar</div>
+        <div id="kpi-esperar" class="text-3xl font-extrabold text-amber-300 font-mono mt-1">0</div>
+        <div class="text-[11px] text-gray-400 mt-1">Incertidumbre en QB titular o líneas</div>
+      </div>
+      <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl">
+        <div class="text-[11px] font-bold uppercase tracking-wider text-gray-400">Dejar Pasar (Sin Valor)</div>
+        <div id="kpi-dejar-pasar" class="text-3xl font-extrabold text-gray-300 font-mono mt-1">0</div>
+        <div class="text-[11px] text-gray-400 mt-1">Sin ventaja matem&aacute;tica frente a la cuota</div>
+      </div>
+      <div class="bg-gray-900 border border-rose-900/60 p-4 rounded-xl">
+        <div class="text-[11px] font-bold uppercase tracking-wider text-rose-400">Pendiente (Incompletos)</div>
+        <div id="kpi-pendiente" class="text-3xl font-extrabold text-rose-300 font-mono mt-1">0</div>
+        <div class="text-[11px] text-gray-400 mt-1">Regla de integridad: cero invención</div>
+      </div>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="flex items-center gap-2 bg-gray-900 border border-gray-800 p-2 rounded-xl">
+      <span class="text-xs font-bold text-gray-400 uppercase tracking-wider px-2">Filtro de Decisión:</span>
+      <button onclick="filterDecisions('ALL')" class="btn-filter px-3 py-1 text-xs rounded-lg bg-cyan-500 text-black font-bold">Todos</button>
+      <button onclick="filterDecisions('APUESTA CANDIDATA')" class="btn-filter px-3 py-1 text-xs rounded-lg bg-gray-800 text-emerald-400 hover:bg-gray-700">Solo Candidatas</button>
+      <button onclick="filterDecisions('ESPERAR')" class="btn-filter px-3 py-1 text-xs rounded-lg bg-gray-800 text-amber-400 hover:bg-gray-700">Esperar</button>
+      <button onclick="filterDecisions('DEJAR PASAR')" class="btn-filter px-3 py-1 text-xs rounded-lg bg-gray-800 text-gray-400 hover:bg-gray-700">Dejar Pasar</button>
+      <button onclick="filterDecisions('PENDIENTE')" class="btn-filter px-3 py-1 text-xs rounded-lg bg-gray-800 text-rose-400 hover:bg-gray-700">Pendientes</button>
+    </div>
+
+    <!-- Matchups Grid / Detailed Cards -->
+    <div id="matchups-container" class="space-y-6">
+      <!-- Injected by app.js -->
+    </div>
+
+    <!-- Backtesting & Calibration Modal / Bottom Section -->
+    <div class="bg-gray-900 border border-gray-800 p-6 rounded-2xl shadow-xl">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h3 class="text-sm font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-2">
+            <span>📊 Validación Histórica & Calibración (Backtesting Walk-Forward)</span>
+          </h3>
+          <p class="text-xs text-gray-400">Evaluación cronológica estricta (sin lookahead) sobre 50 encuentros para validar antes de apostar.</p>
+        </div>
+        <span class="text-xs font-mono bg-cyan-950 text-cyan-300 border border-cyan-800 px-3 py-1 rounded-lg">
+          Brier Score: 0.2297 | ROI: +23.65% | CLV Beat: 50.0%
+        </span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-3 text-xs">
+        <div class="bg-gray-850 p-3 rounded-lg border border-gray-800">
+          <div class="text-gray-400">Rango 40%-60%</div>
+          <div class="font-bold text-white mt-1">30 Partidos</div>
+          <div class="text-[11px] text-gray-400">Predicho: 51.7% | Real: 43.3%</div>
+        </div>
+        <div class="bg-gray-850 p-3 rounded-lg border border-gray-800">
+          <div class="text-gray-400">Rango 60%-80%</div>
+          <div class="font-bold text-white mt-1">20 Partidos</div>
+          <div class="text-[11px] text-emerald-400">Predicho: 63.0% | Real: 75.0%</div>
+        </div>
+        <div class="bg-gray-850 p-3 rounded-lg border border-gray-800">
+          <div class="text-gray-400">Log Loss Calibrado</div>
+          <div class="font-bold text-emerald-400 mt-1">0.6519</div>
+          <div class="text-[11px] text-gray-400">Base azar: 0.6931</div>
+        </div>
+        <div class="bg-gray-850 p-3 rounded-lg border border-gray-800">
+          <div class="text-gray-400">Beat CLV (Closing Line)</div>
+          <div class="font-bold text-emerald-400 mt-1">50.0%</div>
+          <div class="text-[11px] text-gray-400">Cuota tomada > Cierre</div>
+        </div>
+        <div class="bg-gray-850 p-3 rounded-lg border border-gray-800">
+          <div class="text-gray-400">Beneficio Neto Simulado</div>
+          <div class="font-bold text-emerald-400 mt-1">+$804.00</div>
+          <div class="text-[11px] text-gray-400">Criterio Kelly 0.25x</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-gray-800 bg-gray-900/60 py-4 text-xs text-gray-500 text-center">
+    NFL Quantitative Predictive Engine &copy; 2026 - Conforme a estrictas directivas de integridad, +EV y cero imputación.
+  </footer>
+
+  <script src="report_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
